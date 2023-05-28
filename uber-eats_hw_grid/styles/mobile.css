@@ -1,0 +1,47 @@
+@media screen and (max-width: 768px) {
+    header, main, footer {
+        padding: 0 8px;
+    }
+    .header__order{
+        display: none;
+    }
+    .header__order__mobile{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0 auto;
+    }
+    .header__order__mobile__when{
+        width: 20%;
+        margin-right: 16px;
+    }
+    .header__order__mobile__to{
+        width: 100%;
+    }
+    .header__order__mobile__to__text, .header__order__mobile__when__text{
+        color: #626262;
+        font-size: 11px;
+        margin-bottom: 8px;
+        margin-top: 24px;
+    }
+    .header__right__shop{
+        display: none;
+    }
+    .main__catalog {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer__info {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__info__left__language__button{
+        width: 173px;
+    }
+    .footer__bottom-info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

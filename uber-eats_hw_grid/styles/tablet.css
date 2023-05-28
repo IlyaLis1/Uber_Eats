@@ -1,0 +1,12 @@
+@media screen and (max-width: 1120px) {
+    header, main, footer {
+        padding: 0 8px;
+    }
+    header{
+        font-size: 13px !important;
+    }
+    .main__catalog {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
